@@ -63,6 +63,8 @@ body{
     justify-content: space-between;
     z-index: 100;
     transition: all 0.3s ease;
+    position:fixed;
+    top: 0;
 }
 
 .logospace{
@@ -120,7 +122,7 @@ body{
 .blogcontainer{
     width: 99%;
     height: 500px;
-    margin: 130px auto;
+    margin: 100px auto;
 }
 
 .blogcontainertitle{
@@ -172,6 +174,30 @@ body{
     background-image: url(../Images/BlogThumbnail/popular\ cars\ in\ russia.jpg);
 }
 
+.blog4{
+    background-image: url(../Images/BlogThumbnail/gogo\ nomer\ washlili\ picotit.webp);
+}
+
+.blog5{
+    background-image: url(../Images/BlogThumbnail/volga\ reklama.webp);
+}
+
+.blog6{
+    background-image: url(../Images/BlogThumbnail/S76MBEnthusiast\ 2.webp);
+}
+
+.blog7{
+    background-image: url(../Images/BlogThumbnail/bmwe30.webp);
+}
+
+.blog8{
+    background-image: url(../Images/BlogThumbnail/silvias15.webp);
+}
+
+.blog9{
+    background-image: url(../Images/BlogThumbnail/supra.webp);
+}
+
 .blogcontent{
     width: 90%;
     max-width: 350px;
@@ -185,6 +211,7 @@ body{
     user-select: none;
     color: var(--headerullia);
     transition: all .3s ease;
+    border-top-left-radius: 10px;
 }
 
 .blogcontent a{
